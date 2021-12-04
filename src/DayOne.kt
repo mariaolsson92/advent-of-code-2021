@@ -30,7 +30,7 @@ fun countMeasurementWindows(input: List<Int>) {
     var currentWindow: Int
 
     for (i in input.indices) {
-        if (i + 2 >= input.size) break
+        if (i + 2 == input.size) break
 
         currentWindow = input[i] + input[i + 1] + input[i + 2]
 
